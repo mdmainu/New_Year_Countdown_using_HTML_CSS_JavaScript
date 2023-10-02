@@ -23,10 +23,10 @@ function updateCountdown() {
 
   //update the time in screen
 
-  dayElm.textContent = days + " DAYS";
-  hourElm.textContent = hours + " HOURS";
-  minuteElm.textContent = minutes + " MINUTES";
-  secondElm.textContent = seconds + " SECONDS";
+  dayElm.textContent = days + " Days";
+  hourElm.textContent = hours + " Hours";
+  minuteElm.textContent = minutes + " Minutes";
+  secondElm.textContent = seconds + " Seconds";
 }
 
 updateCountdown();
